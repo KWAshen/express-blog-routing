@@ -4,9 +4,9 @@ const app = express();
 
 const port = 3000;
 
-const postsrouter = require('./routers/posts');
+const postsRouter = require('./routers/posts');
 
-app.use('/posts',postsRouter);
+app.use('/posts', postsRouter);
 
 app.use(express.static("immagini_e_post"));
 
